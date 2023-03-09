@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Comments</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <h1>Комментарии</h1>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="comments-field"></div>
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <label id="name" for="form-name">Имя<sup>*</sup>:</label>
+                            <input type="name" class="form-field" id="form-name" placeholder="Введите ваше имя" />
+                        </div>
+                        <div class="form-group">
+                            <label id="comment" for="form-comment">Комментарий<sup>*</sup>:</label>
+                            <input type="name" class="form-field" id="form-comment" placeholder="Ваш комментарий" />
+                        </div>
+                        <div class="form-group">
+                            <label id="date" for="form-date">Укажите дату:</label>
+                            <input type="date" class="form-calendar" id="form-date" />
+                        </div>
+                        <div class="form-group">
+                            <button class="form-btn-submit" id="add-comment" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+</html>
